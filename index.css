@@ -1,0 +1,159 @@
+/* Home Page CSS */
+#searchField {
+    padding: 3px;
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.flex-container {
+    display: flex;
+    border: 1px solid rgb(53, 179, 12);
+    height: 100%;
+    width: 100%;
+}
+
+.flex-container-div {
+    width: 20%;
+    padding: 1;
+    text-align: center;
+    border: 3px solid white;
+}
+
+#header {
+    margin-top: -1px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(49, 23, 23);
+}
+
+#place-details1 {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#place-details2 {
+    height: 150px;
+    background-color: rgb(247, 236, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 140px;
+    width: 150px;
+}
+
+#update-btn {
+    background-color: rgb(74, 74, 141);
+    color: white;
+    height: 30px;
+    padding: 4;
+    border: none;
+}
+
+#delete-btn {
+    background-color: red;
+    color: white;
+    height: 30px;
+    padding: 4;
+    border: none;
+}
+
+#update-btn:hover {
+    background-color: green;
+    color: white;
+}
+
+#delete-btn:hover {
+    background-color: rgb(172, 72, 17);
+    color: white;
+}
+
+#create-btn {
+    background-color: rgb(74, 74, 141);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    padding: 4;
+    border: none;
+}
+
+#create-btn:hover {
+    background-color: green;
+    color: white;
+}
+
+/* AddNewTouristPlace CSS */
+
+#form-header {
+    text-align: center;
+    font-size: 25px;
+}
+
+.flex-container-2 {
+
+    display: flex;
+
+}
+
+.flex-container-div-2 {
+    width: 20%;
+    height: 100%;
+    padding: 1;
+    text-align: center;
+    border: 1px solid white;
+}
+.flex-container-div-3 {
+    width: 100%;
+    display: inline;
+
+    padding: 1;
+    text-align: left;
+    border: 1px solid white;
+}
+
+
+#input-field {
+    
+    width: 50%;
+    border-radius: 3px;
+}
+
+
+
+
+#submit-reset-btn {
+    float: right;
+    width: 620px;
+}
+
+#submit-btn {
+    background-color: rgb(35, 165, 122);
+    color: white;
+    border: none;
+    height: 30px;
+}
+
+#reset-btn {
+    background-color: rgb(150, 105, 21);
+    color: white;
+    border: none;
+    height: 30px;
+}
+
+#submit-btn:hover {
+    background-color: green;
+    color: white;
+}
+
+#reset-btn:hover {
+    background-color: rgb(172, 72, 17);
+    color: white;
+}
